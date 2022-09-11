@@ -1,0 +1,112 @@
+$danger:#c98664;
+$warning :#f0ded6;
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+.nav a:hover{
+    color: $danger;
+}
+.scaleAnimation{
+    transition: all 0.5s ease;
+}
+.scaleAnimation:hover{
+    transform: scale(1.1);
+}
+.scaleAnimation .btn{
+    transition: all 0.5s ease;
+}
+.scaleAnimation:hover .btn{
+    transform: scale(.9);
+}
+.scaleAnimation #img{
+    transition: all 0.7s ease;
+    height: 200px;
+    width: 200px;
+}
+.scaleAnimation:hover #img{
+    transform: scale(1.1) rotate(10deg);
+}
+.scaleAnimation #img2{
+    transition: all 0.7s ease;
+    height: 100px;
+}
+.scaleAnimation:hover #img2{
+    transform: scale(1.1) rotate(10deg);
+}
+.animationUp{
+    position: relative;
+    top: 0;
+    transition: all 0.2s ease;
+}
+.animationUp:hover{
+    top: -20px;
+    border-bottom: 5px solid $danger !important;
+}
+.animationUp .btn{
+    transition: all 0.5s ease;
+}
+.animationUp:hover .btn{
+    transform: scale(.9);
+}
+.animationUp .card-text{
+    position: relative;
+    right: 0;
+    transition: all 0.5s ease;
+}
+.animationUp:hover .card-text{
+    right: -5px;
+}
+.animationUp .card-title{
+    position: relative;
+    right: 0;
+    transition: all 0.4s ease;
+}
+.animationUp:hover .card-title{
+    right: -10px;
+}
+.scaleAnimationIcon{
+    transition: all 0.2s ease;
+}
+.scaleAnimationIcon:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+.animationUpNo{
+    position: relative;
+    top: 0;
+    transition: all 0.4s ease;
+}
+.animationUpNo:hover{
+    top: -20px;
+}
+.animationUpNo .card-title{
+    position: relative;
+    right: 0;
+    transition: all 0.4s ease;
+}
+.animationUpNo:hover .card-title{
+    right: -10px;
+}
+#nav-link{
+    position: relative;
+}
+#nav-link:focus{
+    color: $danger;
+}
+
+
+
+
+
+.btn-danger{
+    color:#fff;
+}
+#btn-danger:hover{
+    background-color: #fff;
+    color: #c98664;
+}
+
+
